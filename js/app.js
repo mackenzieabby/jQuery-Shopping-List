@@ -11,6 +11,8 @@ function getItem() {
 	$('input').keyup(function (event) {
 		if (event.keyCode == 13) {
 			postItem();
+		        $(':input','.input') // resets input feild //
+                        .val('')
 		}; 
 	});
 }
