@@ -29,6 +29,7 @@ function postItem() {
 $(document).on('click', 'button', function (event) {
 	event.preventDefault();
 	$('.list_area').empty();
+	$('input').empty();
 });
  
  // Delete Item //
